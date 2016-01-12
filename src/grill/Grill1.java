@@ -9,13 +9,13 @@ package grill;
  *
  * @author Jack
  */
-public class grill extends javax.swing.JFrame 
+public class Grill1 extends javax.swing.JFrame 
 {
 
     /**
      * Creates new form grill
      */
-    public grill() 
+    public Grill1() 
     {
         initComponents();
         
@@ -31,7 +31,6 @@ public class grill extends javax.swing.JFrame
     private void initComponents() {
         java.awt.GridBagConstraints gridBagConstraints;
 
-        jLabel1 = new javax.swing.JLabel();
         jLabel00_00 = new javax.swing.JLabel();
         jLabel01_00 = new javax.swing.JLabel();
         jLabel02_00 = new javax.swing.JLabel();
@@ -53,17 +52,7 @@ public class grill extends javax.swing.JFrame
         jLabel18_00 = new javax.swing.JLabel();
         jLabel19_00 = new javax.swing.JLabel();
         jLabel20_00 = new javax.swing.JLabel();
-        jLabel21_00 = new javax.swing.JLabel();
-        jLabel22_00 = new javax.swing.JLabel();
-        jLabel23_00 = new javax.swing.JLabel();
-        jLabel24_00 = new javax.swing.JLabel();
-        jLabel25_00 = new javax.swing.JLabel();
-        jLabel26_00 = new javax.swing.JLabel();
         jLabel27_00 = new javax.swing.JLabel();
-        jLabel28_00 = new javax.swing.JLabel();
-        jLabel29_00 = new javax.swing.JLabel();
-        jLabel30_00 = new javax.swing.JLabel();
-        jLabel31_00 = new javax.swing.JLabel();
         jLabel00_01 = new javax.swing.JLabel();
         jLabel00_02 = new javax.swing.JLabel();
         jLabel00_03 = new javax.swing.JLabel();
@@ -84,32 +73,12 @@ public class grill extends javax.swing.JFrame
         jLabel00_18 = new javax.swing.JLabel();
         jLabel00_19 = new javax.swing.JLabel();
         jLabel00_20 = new javax.swing.JLabel();
-        jLabel00_21 = new javax.swing.JLabel();
-        jLabel00_22 = new javax.swing.JLabel();
-        jLabel00_23 = new javax.swing.JLabel();
-        jLabel00_24 = new javax.swing.JLabel();
-        jLabel00_25 = new javax.swing.JLabel();
-        jLabel00_26 = new javax.swing.JLabel();
-        jLabel00_27 = new javax.swing.JLabel();
-        jLabel00_28 = new javax.swing.JLabel();
-        jLabel00_29 = new javax.swing.JLabel();
-        jLabel00_30 = new javax.swing.JLabel();
-        jLabel00_31 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLayeredPane1 = new javax.swing.JLayeredPane();
-        jLabel4 = new javax.swing.JLabel();
-        jLayeredPane2 = new javax.swing.JLayeredPane();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-
-        jLabel1.setText("jLabel1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocationByPlatform(true);
-        setMaximumSize(new java.awt.Dimension(1024, 1024));
-        setMinimumSize(new java.awt.Dimension(1024, 1024));
-        setPreferredSize(new java.awt.Dimension(1024, 1024));
+        setMaximumSize(new java.awt.Dimension(200, 200));
+        setMinimumSize(new java.awt.Dimension(200, 200));
+        setPreferredSize(new java.awt.Dimension(200, 200));
         getContentPane().setLayout(new java.awt.GridBagLayout());
 
         jLabel00_00.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -365,81 +334,7 @@ public class grill extends javax.swing.JFrame
         gridBagConstraints.gridy = 20;
         getContentPane().add(jLabel20_00, gridBagConstraints);
 
-        jLabel21_00.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel21_00.setText("21,0");
-        jLabel21_00.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel21_00.setMaximumSize(new java.awt.Dimension(30, 30));
-        jLabel21_00.setMinimumSize(new java.awt.Dimension(30, 30));
-        jLabel21_00.setName("21,0"); // NOI18N
-        jLabel21_00.setPreferredSize(new java.awt.Dimension(30, 30));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 21;
-        getContentPane().add(jLabel21_00, gridBagConstraints);
-
-        jLabel22_00.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel22_00.setText("22,0");
-        jLabel22_00.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel22_00.setMaximumSize(new java.awt.Dimension(30, 30));
-        jLabel22_00.setMinimumSize(new java.awt.Dimension(30, 30));
-        jLabel22_00.setName("22,0"); // NOI18N
-        jLabel22_00.setPreferredSize(new java.awt.Dimension(30, 30));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 22;
-        getContentPane().add(jLabel22_00, gridBagConstraints);
-
-        jLabel23_00.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel23_00.setText("23,0");
-        jLabel23_00.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel23_00.setMaximumSize(new java.awt.Dimension(30, 30));
-        jLabel23_00.setMinimumSize(new java.awt.Dimension(30, 30));
-        jLabel23_00.setName("23,0"); // NOI18N
-        jLabel23_00.setPreferredSize(new java.awt.Dimension(30, 30));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 23;
-        getContentPane().add(jLabel23_00, gridBagConstraints);
-
-        jLabel24_00.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel24_00.setText("24,0");
-        jLabel24_00.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel24_00.setMaximumSize(new java.awt.Dimension(30, 30));
-        jLabel24_00.setMinimumSize(new java.awt.Dimension(30, 30));
-        jLabel24_00.setName("24,0"); // NOI18N
-        jLabel24_00.setPreferredSize(new java.awt.Dimension(30, 30));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 24;
-        getContentPane().add(jLabel24_00, gridBagConstraints);
-
-        jLabel25_00.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel25_00.setText("25,0");
-        jLabel25_00.setToolTipText("");
-        jLabel25_00.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel25_00.setMaximumSize(new java.awt.Dimension(20, 20));
-        jLabel25_00.setMinimumSize(new java.awt.Dimension(20, 20));
-        jLabel25_00.setName("25,0"); // NOI18N
-        jLabel25_00.setPreferredSize(new java.awt.Dimension(20, 20));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 25;
-        getContentPane().add(jLabel25_00, gridBagConstraints);
-
-        jLabel26_00.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel26_00.setText("26,0");
-        jLabel26_00.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel26_00.setMaximumSize(new java.awt.Dimension(20, 20));
-        jLabel26_00.setMinimumSize(new java.awt.Dimension(20, 20));
-        jLabel26_00.setName("26,0"); // NOI18N
-        jLabel26_00.setPreferredSize(new java.awt.Dimension(20, 20));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 26;
-        getContentPane().add(jLabel26_00, gridBagConstraints);
-
         jLabel27_00.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel27_00.setText("27,0");
         jLabel27_00.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel27_00.setMaximumSize(new java.awt.Dimension(20, 20));
         jLabel27_00.setMinimumSize(new java.awt.Dimension(20, 20));
@@ -449,54 +344,6 @@ public class grill extends javax.swing.JFrame
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 27;
         getContentPane().add(jLabel27_00, gridBagConstraints);
-
-        jLabel28_00.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel28_00.setText("28,0");
-        jLabel28_00.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel28_00.setMaximumSize(new java.awt.Dimension(20, 20));
-        jLabel28_00.setMinimumSize(new java.awt.Dimension(20, 20));
-        jLabel28_00.setName("28,0"); // NOI18N
-        jLabel28_00.setPreferredSize(new java.awt.Dimension(20, 20));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 28;
-        getContentPane().add(jLabel28_00, gridBagConstraints);
-
-        jLabel29_00.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel29_00.setText("29,0");
-        jLabel29_00.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel29_00.setMaximumSize(new java.awt.Dimension(20, 20));
-        jLabel29_00.setMinimumSize(new java.awt.Dimension(20, 20));
-        jLabel29_00.setName("29,0"); // NOI18N
-        jLabel29_00.setPreferredSize(new java.awt.Dimension(20, 20));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 29;
-        getContentPane().add(jLabel29_00, gridBagConstraints);
-
-        jLabel30_00.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel30_00.setText("30,0");
-        jLabel30_00.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel30_00.setMaximumSize(new java.awt.Dimension(20, 20));
-        jLabel30_00.setMinimumSize(new java.awt.Dimension(20, 20));
-        jLabel30_00.setName("30,0"); // NOI18N
-        jLabel30_00.setPreferredSize(new java.awt.Dimension(20, 20));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 30;
-        getContentPane().add(jLabel30_00, gridBagConstraints);
-
-        jLabel31_00.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel31_00.setText("31,0");
-        jLabel31_00.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel31_00.setMaximumSize(new java.awt.Dimension(20, 20));
-        jLabel31_00.setMinimumSize(new java.awt.Dimension(20, 20));
-        jLabel31_00.setName("31,0"); // NOI18N
-        jLabel31_00.setPreferredSize(new java.awt.Dimension(20, 20));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 31;
-        getContentPane().add(jLabel31_00, gridBagConstraints);
 
         jLabel00_01.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel00_01.setText("0,1");
@@ -740,189 +587,6 @@ public class grill extends javax.swing.JFrame
         gridBagConstraints.gridy = 0;
         getContentPane().add(jLabel00_20, gridBagConstraints);
 
-        jLabel00_21.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel00_21.setText("0,21");
-        jLabel00_21.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel00_21.setMaximumSize(new java.awt.Dimension(32, 32));
-        jLabel00_21.setMinimumSize(new java.awt.Dimension(32, 32));
-        jLabel00_21.setName("0,21"); // NOI18N
-        jLabel00_21.setPreferredSize(new java.awt.Dimension(32, 32));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 21;
-        gridBagConstraints.gridy = 0;
-        getContentPane().add(jLabel00_21, gridBagConstraints);
-
-        jLabel00_22.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel00_22.setText("0,22");
-        jLabel00_22.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel00_22.setMaximumSize(new java.awt.Dimension(32, 32));
-        jLabel00_22.setMinimumSize(new java.awt.Dimension(32, 32));
-        jLabel00_22.setName("0,22"); // NOI18N
-        jLabel00_22.setPreferredSize(new java.awt.Dimension(32, 32));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 22;
-        gridBagConstraints.gridy = 0;
-        getContentPane().add(jLabel00_22, gridBagConstraints);
-
-        jLabel00_23.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel00_23.setText("0,23");
-        jLabel00_23.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel00_23.setMaximumSize(new java.awt.Dimension(32, 32));
-        jLabel00_23.setMinimumSize(new java.awt.Dimension(32, 32));
-        jLabel00_23.setName("0,23"); // NOI18N
-        jLabel00_23.setPreferredSize(new java.awt.Dimension(32, 32));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 23;
-        gridBagConstraints.gridy = 0;
-        getContentPane().add(jLabel00_23, gridBagConstraints);
-
-        jLabel00_24.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel00_24.setText("0,24");
-        jLabel00_24.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel00_24.setMaximumSize(new java.awt.Dimension(32, 32));
-        jLabel00_24.setMinimumSize(new java.awt.Dimension(32, 32));
-        jLabel00_24.setName("0,24"); // NOI18N
-        jLabel00_24.setPreferredSize(new java.awt.Dimension(32, 32));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 24;
-        gridBagConstraints.gridy = 0;
-        getContentPane().add(jLabel00_24, gridBagConstraints);
-
-        jLabel00_25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel00_25.setText("0,25");
-        jLabel00_25.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel00_25.setMaximumSize(new java.awt.Dimension(32, 32));
-        jLabel00_25.setMinimumSize(new java.awt.Dimension(32, 32));
-        jLabel00_25.setName("0,25"); // NOI18N
-        jLabel00_25.setPreferredSize(new java.awt.Dimension(32, 32));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 25;
-        gridBagConstraints.gridy = 0;
-        getContentPane().add(jLabel00_25, gridBagConstraints);
-
-        jLabel00_26.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel00_26.setText("0,26");
-        jLabel00_26.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel00_26.setMaximumSize(new java.awt.Dimension(32, 32));
-        jLabel00_26.setMinimumSize(new java.awt.Dimension(32, 32));
-        jLabel00_26.setName("0,26"); // NOI18N
-        jLabel00_26.setPreferredSize(new java.awt.Dimension(32, 32));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 26;
-        gridBagConstraints.gridy = 0;
-        getContentPane().add(jLabel00_26, gridBagConstraints);
-
-        jLabel00_27.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel00_27.setText("0,27");
-        jLabel00_27.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel00_27.setMaximumSize(new java.awt.Dimension(32, 32));
-        jLabel00_27.setMinimumSize(new java.awt.Dimension(32, 32));
-        jLabel00_27.setName("0,27"); // NOI18N
-        jLabel00_27.setPreferredSize(new java.awt.Dimension(32, 32));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 27;
-        gridBagConstraints.gridy = 0;
-        getContentPane().add(jLabel00_27, gridBagConstraints);
-
-        jLabel00_28.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel00_28.setText("0,28");
-        jLabel00_28.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel00_28.setMaximumSize(new java.awt.Dimension(32, 32));
-        jLabel00_28.setMinimumSize(new java.awt.Dimension(32, 32));
-        jLabel00_28.setName("0,28"); // NOI18N
-        jLabel00_28.setPreferredSize(new java.awt.Dimension(32, 32));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 28;
-        gridBagConstraints.gridy = 0;
-        getContentPane().add(jLabel00_28, gridBagConstraints);
-
-        jLabel00_29.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel00_29.setText("0,29");
-        jLabel00_29.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel00_29.setMaximumSize(new java.awt.Dimension(32, 32));
-        jLabel00_29.setMinimumSize(new java.awt.Dimension(32, 32));
-        jLabel00_29.setName("0,29"); // NOI18N
-        jLabel00_29.setPreferredSize(new java.awt.Dimension(32, 32));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 29;
-        gridBagConstraints.gridy = 0;
-        getContentPane().add(jLabel00_29, gridBagConstraints);
-
-        jLabel00_30.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel00_30.setText("0,30");
-        jLabel00_30.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel00_30.setMaximumSize(new java.awt.Dimension(32, 32));
-        jLabel00_30.setMinimumSize(new java.awt.Dimension(32, 32));
-        jLabel00_30.setName("0,30"); // NOI18N
-        jLabel00_30.setPreferredSize(new java.awt.Dimension(32, 32));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 30;
-        gridBagConstraints.gridy = 0;
-        getContentPane().add(jLabel00_30, gridBagConstraints);
-
-        jLabel00_31.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel00_31.setText("0,31");
-        jLabel00_31.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel00_31.setMaximumSize(new java.awt.Dimension(32, 32));
-        jLabel00_31.setMinimumSize(new java.awt.Dimension(32, 32));
-        jLabel00_31.setName("0,31"); // NOI18N
-        jLabel00_31.setPreferredSize(new java.awt.Dimension(32, 32));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 31;
-        gridBagConstraints.gridy = 0;
-        getContentPane().add(jLabel00_31, gridBagConstraints);
-
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon("O:\\NetBeans\\grill\\diagonal.png")); // NOI18N
-        jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 4));
-        jLabel2.setMaximumSize(new java.awt.Dimension(160, 160));
-        jLabel2.setMinimumSize(new java.awt.Dimension(160, 160));
-        jLabel2.setName("v1"); // NOI18N
-        jLabel2.setPreferredSize(new java.awt.Dimension(160, 160));
-        getContentPane().add(jLabel2, new java.awt.GridBagConstraints());
-
-        jLabel3.setText("Gm7");
-        getContentPane().add(jLabel3, new java.awt.GridBagConstraints());
-
-        jLayeredPane1.setMaximumSize(new java.awt.Dimension(105, 105));
-        jLayeredPane1.setMinimumSize(new java.awt.Dimension(105, 105));
-        jLayeredPane1.setOpaque(true);
-        jLayeredPane1.setPreferredSize(new java.awt.Dimension(105, 105));
-        jLayeredPane1.setLayout(new java.awt.GridBagLayout());
-
-        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel4.setIcon(new javax.swing.ImageIcon("O:\\NetBeans\\grill\\diagonal.png")); // NOI18N
-        jLabel4.setText("jLabel4");
-        jLabel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 4));
-        jLabel4.setMaximumSize(new java.awt.Dimension(100, 100));
-        jLabel4.setMinimumSize(new java.awt.Dimension(100, 100));
-        jLabel4.setName(""); // NOI18N
-        jLabel4.setPreferredSize(new java.awt.Dimension(100, 100));
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 0;
-        jLayeredPane1.add(jLabel4, gridBagConstraints);
-        jLayeredPane1.setLayer(jLabel4, javax.swing.JLayeredPane.PALETTE_LAYER);
-
-        gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 14;
-        gridBagConstraints.gridy = 4;
-        gridBagConstraints.gridwidth = 3;
-        gridBagConstraints.gridheight = 3;
-        getContentPane().add(jLayeredPane1, gridBagConstraints);
-
-        jLayeredPane2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel5.setText("jLabel5");
-        jLayeredPane2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 29, -1, -1));
-
-        jLabel6.setBackground(new java.awt.Color(0, 255, 255));
-        jLabel6.setForeground(new java.awt.Color(204, 0, 51));
-        jLabel6.setText("jLabel6");
-        jLayeredPane2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(24, 36, -1, -1));
-
-        getContentPane().add(jLayeredPane2, new java.awt.GridBagConstraints());
-
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -944,14 +608,15 @@ public class grill extends javax.swing.JFrame
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(grill.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Grill1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(grill.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Grill1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(grill.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Grill1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(grill.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Grill1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
@@ -959,7 +624,7 @@ public class grill extends javax.swing.JFrame
         {
             public void run() 
             {
-                new grill().setVisible(true);
+                new Grill1().setVisible(true);
             }
         });
     }
@@ -986,17 +651,6 @@ public class grill extends javax.swing.JFrame
     private javax.swing.JLabel jLabel00_18;
     private javax.swing.JLabel jLabel00_19;
     private javax.swing.JLabel jLabel00_20;
-    private javax.swing.JLabel jLabel00_21;
-    private javax.swing.JLabel jLabel00_22;
-    private javax.swing.JLabel jLabel00_23;
-    private javax.swing.JLabel jLabel00_24;
-    private javax.swing.JLabel jLabel00_25;
-    private javax.swing.JLabel jLabel00_26;
-    private javax.swing.JLabel jLabel00_27;
-    private javax.swing.JLabel jLabel00_28;
-    private javax.swing.JLabel jLabel00_29;
-    private javax.swing.JLabel jLabel00_30;
-    private javax.swing.JLabel jLabel00_31;
     private javax.swing.JLabel jLabel01_00;
     private javax.swing.JLabel jLabel02_00;
     private javax.swing.JLabel jLabel03_00;
@@ -1006,7 +660,6 @@ public class grill extends javax.swing.JFrame
     private javax.swing.JLabel jLabel07_00;
     private javax.swing.JLabel jLabel08_00;
     private javax.swing.JLabel jLabel09_00;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10_00;
     private javax.swing.JLabel jLabel11_00;
     private javax.swing.JLabel jLabel12_00;
@@ -1017,25 +670,8 @@ public class grill extends javax.swing.JFrame
     private javax.swing.JLabel jLabel17_00;
     private javax.swing.JLabel jLabel18_00;
     private javax.swing.JLabel jLabel19_00;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20_00;
-    private javax.swing.JLabel jLabel21_00;
-    private javax.swing.JLabel jLabel22_00;
-    private javax.swing.JLabel jLabel23_00;
-    private javax.swing.JLabel jLabel24_00;
-    private javax.swing.JLabel jLabel25_00;
-    private javax.swing.JLabel jLabel26_00;
     private javax.swing.JLabel jLabel27_00;
-    private javax.swing.JLabel jLabel28_00;
-    private javax.swing.JLabel jLabel29_00;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel30_00;
-    private javax.swing.JLabel jLabel31_00;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLayeredPane jLayeredPane1;
-    private javax.swing.JLayeredPane jLayeredPane2;
     // End of variables declaration//GEN-END:variables
     private javax.swing.JLabel chordGrid[][];
    
