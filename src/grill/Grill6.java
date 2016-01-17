@@ -97,6 +97,8 @@ public class Grill6 extends javax.swing.JFrame {
         fSlash = new javax.swing.JLabel();
         fBass = new javax.swing.JLabel();
         fEndRepeat = new javax.swing.JLabel();
+        fBassSharp = new javax.swing.JLabel();
+        fBassFlat = new javax.swing.JLabel();
         half = new javax.swing.JLayeredPane();
         hLayoutPattern = new javax.swing.JLabel();
         hRepeatStart = new javax.swing.JLabel();
@@ -733,7 +735,7 @@ public class Grill6 extends javax.swing.JFrame {
         fStartRepeat.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         fStartRepeat.setText(":");
         fStartRepeat.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        full.add(fStartRepeat, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 17, 12, 30));
+        full.add(fStartRepeat, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 15, 12, 30));
 
         fRoot.setFont(new java.awt.Font("Arial Unicode MS", 1, 36)); // NOI18N
         fRoot.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -832,15 +834,27 @@ public class Grill6 extends javax.swing.JFrame {
 
         fBass.setFont(new java.awt.Font("Arial Unicode MS", 1, 18)); // NOI18N
         fBass.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        fBass.setText("G♭");
+        fBass.setText("G");
         fBass.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        full.add(fBass, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 44, 25, 18));
+        full.add(fBass, new org.netbeans.lib.awtextra.AbsoluteConstraints(77, 44, 15, 18));
 
         fEndRepeat.setFont(new java.awt.Font("Arial Unicode MS", 1, 36)); // NOI18N
         fEndRepeat.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         fEndRepeat.setText(":");
         fEndRepeat.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        full.add(fEndRepeat, new org.netbeans.lib.awtextra.AbsoluteConstraints(84, 15, 12, 30));
+        full.add(fEndRepeat, new org.netbeans.lib.awtextra.AbsoluteConstraints(92, 15, 12, 30));
+
+        fBassSharp.setFont(new java.awt.Font("Arial Unicode MS", 1, 18)); // NOI18N
+        fBassSharp.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        fBassSharp.setText("♯");
+        fBassSharp.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        full.add(fBassSharp, new org.netbeans.lib.awtextra.AbsoluteConstraints(91, 44, 10, 18));
+
+        fBassFlat.setFont(new java.awt.Font("Arial Unicode MS", 1, 18)); // NOI18N
+        fBassFlat.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        fBassFlat.setText("♭");
+        fBassFlat.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        full.add(fBassFlat, new org.netbeans.lib.awtextra.AbsoluteConstraints(91, 44, 10, 18));
 
         half.setMaximumSize(new java.awt.Dimension(104, 64));
         half.setMinimumSize(new java.awt.Dimension(104, 64));
@@ -1784,14 +1798,14 @@ public class Grill6 extends javax.swing.JFrame {
                         .addComponent(jpnlCharacters, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jpnlGrid, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(485, 485, 485)
+                        .addGap(416, 416, 416)
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(78, 78, 78)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(half, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(oneOverTwo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(full, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 267, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 336, Short.MAX_VALUE)
                 .addComponent(jpnlControls, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1911,6 +1925,8 @@ public class Grill6 extends javax.swing.JFrame {
     private javax.swing.JLabel dimLow12;
     private javax.swing.JLabel dimUpHalf2;
     private javax.swing.JLabel fBass;
+    private javax.swing.JLabel fBassFlat;
+    private javax.swing.JLabel fBassSharp;
     private javax.swing.JLabel fDelta;
     private javax.swing.JLabel fDim;
     private javax.swing.JLabel fEndRepeat;
