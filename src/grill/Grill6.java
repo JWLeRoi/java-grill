@@ -216,6 +216,7 @@ public class Grill6 extends javax.swing.JFrame {
         twoCenterPlus = new javax.swing.JLabel();
         twoCenterMinus = new javax.swing.JLabel();
         twoCenterBass = new javax.swing.JLabel();
+        repeatEnd6 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -1364,35 +1365,35 @@ public class Grill6 extends javax.swing.JFrame {
         halfLeftNumber1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         halfLeftNumber1.setText("0");
         halfLeftNumber1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        twoOverOne.add(halfLeftNumber1, new org.netbeans.lib.awtextra.AbsoluteConstraints(29, 32, 9, 13));
+        twoOverOne.add(halfLeftNumber1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 32, 9, 13));
         twoOverOne.setLayer(halfLeftNumber1, javax.swing.JLayeredPane.PALETTE_LAYER);
 
         halfLeftNumber2.setFont(new java.awt.Font("Arial Unicode MS", 1, 14)); // NOI18N
         halfLeftNumber2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         halfLeftNumber2.setText("0");
         halfLeftNumber2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        twoOverOne.add(halfLeftNumber2, new org.netbeans.lib.awtextra.AbsoluteConstraints(38, 32, 9, 13));
+        twoOverOne.add(halfLeftNumber2, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 32, 9, 13));
         twoOverOne.setLayer(halfLeftNumber2, javax.swing.JLayeredPane.PALETTE_LAYER);
 
         halfLeftNumber3.setFont(new java.awt.Font("Arial Unicode MS", 1, 14)); // NOI18N
         halfLeftNumber3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         halfLeftNumber3.setText("0");
         halfLeftNumber3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        twoOverOne.add(halfLeftNumber3, new org.netbeans.lib.awtextra.AbsoluteConstraints(47, 32, 9, 13));
+        twoOverOne.add(halfLeftNumber3, new org.netbeans.lib.awtextra.AbsoluteConstraints(48, 32, 9, 13));
         twoOverOne.setLayer(halfLeftNumber3, javax.swing.JLayeredPane.PALETTE_LAYER);
 
         halfLeftNumber4.setFont(new java.awt.Font("Arial Unicode MS", 1, 14)); // NOI18N
         halfLeftNumber4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         halfLeftNumber4.setText("0");
         halfLeftNumber4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        twoOverOne.add(halfLeftNumber4, new org.netbeans.lib.awtextra.AbsoluteConstraints(56, 32, 9, 13));
+        twoOverOne.add(halfLeftNumber4, new org.netbeans.lib.awtextra.AbsoluteConstraints(57, 32, 9, 13));
         twoOverOne.setLayer(halfLeftNumber4, javax.swing.JLayeredPane.PALETTE_LAYER);
 
         halfLeftNumber5.setFont(new java.awt.Font("Arial Unicode MS", 1, 14)); // NOI18N
         halfLeftNumber5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         halfLeftNumber5.setText("0");
         halfLeftNumber5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        twoOverOne.add(halfLeftNumber5, new org.netbeans.lib.awtextra.AbsoluteConstraints(65, 32, 9, 13));
+        twoOverOne.add(halfLeftNumber5, new org.netbeans.lib.awtextra.AbsoluteConstraints(66, 32, 9, 13));
         twoOverOne.setLayer(halfLeftNumber5, javax.swing.JLayeredPane.PALETTE_LAYER);
 
         flatUpHalf2.setFont(new java.awt.Font("Arial Unicode MS", 1, 24)); // NOI18N
@@ -1468,21 +1469,21 @@ public class Grill6 extends javax.swing.JFrame {
         slash2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         slash2.setText("/");
         slash2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        twoOverOne.add(slash2, new org.netbeans.lib.awtextra.AbsoluteConstraints(52, 37, 20, 30));
+        twoOverOne.add(slash2, new org.netbeans.lib.awtextra.AbsoluteConstraints(53, 37, 20, 30));
         twoOverOne.setLayer(slash2, javax.swing.JLayeredPane.PALETTE_LAYER);
 
         bass2.setFont(new java.awt.Font("Arial Unicode MS", 1, 18)); // NOI18N
         bass2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         bass2.setText("G♭");
         bass2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        twoOverOne.add(bass2, new org.netbeans.lib.awtextra.AbsoluteConstraints(68, 45, 25, 18));
+        twoOverOne.add(bass2, new org.netbeans.lib.awtextra.AbsoluteConstraints(69, 45, 25, 18));
         twoOverOne.setLayer(bass2, javax.swing.JLayeredPane.PALETTE_LAYER);
 
         repeatEnd5.setFont(new java.awt.Font("Arial Unicode MS", 1, 36)); // NOI18N
         repeatEnd5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         repeatEnd5.setText(":");
         repeatEnd5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        twoOverOne.add(repeatEnd5, new org.netbeans.lib.awtextra.AbsoluteConstraints(93, 29, 12, 30));
+        twoOverOne.add(repeatEnd5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 29, 12, 30));
         twoOverOne.setLayer(repeatEnd5, javax.swing.JLayeredPane.PALETTE_LAYER);
 
         twoRightRoot.setFont(new java.awt.Font("Arial Unicode MS", 1, 18)); // NOI18N
@@ -1716,6 +1717,13 @@ public class Grill6 extends javax.swing.JFrame {
         twoCenterBass.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         twoOverOne.add(twoCenterBass, new org.netbeans.lib.awtextra.AbsoluteConstraints(86, 17, 15, 16));
         twoOverOne.setLayer(twoCenterBass, javax.swing.JLayeredPane.PALETTE_LAYER);
+
+        repeatEnd6.setFont(new java.awt.Font("Arial Unicode MS", 1, 36)); // NOI18N
+        repeatEnd6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        repeatEnd6.setText(":");
+        repeatEnd6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        twoOverOne.add(repeatEnd6, new org.netbeans.lib.awtextra.AbsoluteConstraints(93, 29, 12, 30));
+        twoOverOne.setLayer(repeatEnd6, javax.swing.JLayeredPane.PALETTE_LAYER);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -2042,6 +2050,7 @@ public class Grill6 extends javax.swing.JFrame {
     private javax.swing.JLabel plusLow12;
     private javax.swing.JLabel plusUpHalf2;
     private javax.swing.JLabel repeatEnd5;
+    private javax.swing.JLabel repeatEnd6;
     private javax.swing.JLabel repeatLowHalf2;
     private javax.swing.JLabel rootUHalf2;
     private javax.swing.JLabel sharpUpHalf2;
